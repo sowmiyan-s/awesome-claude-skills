@@ -4,6 +4,8 @@ A curated collection of highly effective, production-grade custom instructions, 
 
 These skills are designed to guide Claude in generating high-quality, professional, and context-specific outputs, steering clear of common AI-generated tropes and templates.
 
+Developed and maintained with ❤️ by **[Sowmiyan](https://github.com/sowmiyan-s)**.
+
 ---
 
 ## 🛠️ Table of Contents
@@ -18,6 +20,7 @@ These skills are designed to guide Claude in generating high-quality, profession
     - [Option C: Direct Copy-Paste](#option-c-direct-copy-paste)
   - [🎨 Design Philosophy](#-design-philosophy)
   - [🤝 Contributing](#-contributing)
+  - [👤 Owner / Creator](#-owner--creator)
 
 ---
 
@@ -84,3 +87,10 @@ Have an awesome Claude skill that you've developed? Contributions are welcome!
 4. Commit your changes (`git commit -m "feat: add my-awesome-skill"`).
 5. Push to the branch (`git push origin skill/my-awesome-skill`).
 6. Open a Pull Request.
+
+---
+
+## 👤 Owner / Creator
+
+This repository is created and maintained by **Sowmiyan**:
+* GitHub: [@sowmiyan-s](https://github.com/sowmiyan-s)
