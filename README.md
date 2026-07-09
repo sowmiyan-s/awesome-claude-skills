@@ -41,6 +41,7 @@ This skill transforms Claude into a senior frontend engineer with 30 years of ha
 
 ---
 
+- [linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf. *By [@Linked-API](https://github.com/Linked-API)*
 ## 🚀 How to Use These Skills
 
 You can apply these instructions to Claude in several ways:
