@@ -7,16 +7,10 @@ A curated collection of custom instructions, prompts, and skills to supercharge 
 ## 🌟 Categories & Skills
 
 ### [Web Development](web-development/README.md)
-* **[Advanced Web Developer](web-development/advanced-web-dev.md)** - Senior frontend developer persona focusing on clean layouts, premium typography, custom color palettes, and avoiding AI clichés.
-
 ### [Content Creation](content-creator/README.md)
-* **[Blogger Baby](content-creator/blogger-baby.md)** - Turns notes and outlines into polished, human-sounding technical and non-technical articles.
-
 ### [Software Engineering](software-engineering/README.md)
-* *Add your software engineering skills here.*
-
 ### [Business & Productivity](business-productivity/README.md)
-* *Add your productivity, project management, or analysis skills here.*
+
 
 ---
 
