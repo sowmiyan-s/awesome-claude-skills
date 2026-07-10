@@ -11,37 +11,55 @@ Developed and maintained with ❤️ by **[Sowmiyan](https://github.com/sowmiyan
 ## 🛠️ Table of Contents
 
 - [Awesome Claude Skills 🚀](#awesome-claude-skills-)
-  - [🛠️ Table of Contents](#️-table-of-contents)
-  - [🌟 Featured Skills](#-featured-skills)
-    - [1. Advanced Web Developer (`advanced-web-dev`)](#1-advanced-web-developer-advanced-web-dev)
+  - [📁 Repository Structure](#-repository-structure)
+  - [🌟 Categories & Skills](#-categories--skills)
+    - [Web Development](#web-development)
+    - [Content Creation](#content-creation)
+    - [Software Engineering](#software-engineering)
+    - [Business & Productivity](#business--productivity)
   - [🚀 How to Use These Skills](#-how-to-use-these-skills)
-    - [Option A: Claude Projects (Recommended)](#option-a-claude-projects-recommended)
-    - [Option B: Custom Instructions](#option-b-custom-instructions)
-    - [Option C: Direct Copy-Paste](#option-c-direct-copy-paste)
   - [🎨 Design Philosophy](#-design-philosophy)
+  - [🛠️ Creating Your Own Skill](#-creating-your-own-skill)
   - [🤝 Contributing](#-contributing)
   - [👤 Owner / Creator](#-owner--creator)
 
 ---
 
-## 🌟 Featured Skills
+## 📁 Repository Structure
 
-### 1. Advanced Web Developer (`advanced-web-dev`)
-File: [advanced web-dev.md](file:///d:/PROJECTS/awesome-claude-skills/advanced%20web-dev.md)
+The repository is structured into distinct categories, each housing skills as clean, flat markdown files:
 
-This skill transforms Claude into a senior frontend engineer with 30 years of hands-on experience who builds highly polished, premium, and unique web layouts. It specifically targets and eliminates common AI-generated design clichés.
+```text
+├── web-development/              # Web-related styling, frameworks, and tools
+│   └── advanced-web-dev.md       # Modern anti-AI web development assistant
+├── software-engineering/         # Coding, DevOps, databases, and general programming
+├── content-creator/              # Blog writing, social media, copywriting
+│   └── blogger-baby.md           # Polished article and blog writing assistant
+└── business-productivity/        # Project management, resumes, data analysis
+```
 
-**Key Features:**
-- **Anti-AI Aesthetics:** Strictly avoids overused fonts (Inter, Roboto, Space Grotesk), clichéd purple gradients on white backgrounds, card glows, and generic layout patterns.
-- **Custom Typography:** Researches and applies distinctive, brand-aligned fonts instead of defaults.
-- **Harmonious Palettes:** Uses human-curated colors grounded in color theory and psychology.
-- **Purposeful Motion:** Implements smooth, subtle micro-animations and scroll effects only where they add value.
-- **Realistic Structure:** Generates realistic footers, copyrights, marquees, and social links instead of generic "Built with Love" placeholders.
-- **Asset Integrity:** Restricts emoji spam and ensures the use of high-quality free assets (SVGs, PNGs) from clean sources.
+Each skill `.md` file starts with YAML frontmatter containing the skill's `name` and `description` (useful for auto-triggering/discovery in agentic environments).
 
 ---
 
-- [linkedin-growth](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) - Import leads from LinkedIn or Sales Navigator searches, qualify them against an ideal-customer profile, schedule safe connection invites across accounts, track acceptances, and withdraw stale pending requests. *By [@Linked-API](https://github.com/Linked-API)*
+## 🌟 Categories & Skills
+
+### Web Development (`web-development/`)
+* **[Advanced Web Developer (advanced-web-dev.md)](web-development/advanced-web-dev.md)**:
+  Transforms Claude into a senior frontend engineer with 30 years of hands-on experience who builds highly polished, premium, and unique web layouts. It specifically targets and eliminates common AI-generated design clichés.
+
+### Content Creation (`content-creator/`)
+* **[Blogger Baby (blogger-baby.md)](content-creator/blogger-baby.md)**:
+  Writes original, engaging long-or-short-form articles/blog posts ready to publish on Medium, personal blogs, LinkedIn, or newsletters, on ANY topic — technical and non-technical alike.
+
+### Software Engineering (`software-engineering/`)
+* *Coming soon! Add your software engineering skills here.*
+
+### Business & Productivity (`business-productivity/`)
+* *Coming soon! Add your productivity, business, or resume building skills here.*
+
+---
+
 ## 🚀 How to Use These Skills
 
 You can apply these instructions to Claude in several ways:
@@ -49,7 +67,7 @@ You can apply these instructions to Claude in several ways:
 ### Option A: Claude Projects (Recommended)
 1. In Claude.ai, open or create a **Project** (available on Pro/Team plans).
 2. Click on **Set custom instructions** for the project.
-3. Copy the markdown content from the desired skill file (e.g., `advanced web-dev.md`) and paste it there.
+3. Copy the entire markdown content from the desired skill file (e.g., [advanced-web-dev.md](web-development/advanced-web-dev.md)) and paste it there.
 4. All new chats created within this project will automatically adhere to this persona and set of rules.
 
 ### Option B: Custom Instructions / Profiles
@@ -72,22 +90,38 @@ Every skill in this repository is crafted with the following core tenets:
 
 ---
 
+## 🛠️ Creating Your Own Skill
+
+If you want to create your own skill:
+1. Create a markdown file (e.g. `my-skill-name.md`) under the appropriate category directory.
+2. Define the name and description at the top of the file using YAML frontmatter:
+   ```yaml
+   ---
+   name: your-skill-name
+   description: Brief explanation of what it does and when it triggers
+   ---
+   ```
+3. Write clear, structured guidelines for Claude below it.
+4. Update the category's local `README.md` and this main `README.md` to link to your new skill.
+
+---
+
 ## 🤝 Contributing
 
 Have an awesome Claude skill that you've developed? Contributions are welcome!
 1. Fork this repository.
 2. Create your feature branch (`git checkout -b skill/my-awesome-skill`).
-3. Add your markdown skill file using the standard format:
+3. Add your flat markdown skill file under the correct category directory.
+4. Ensure your skill has YAML frontmatter at the top:
    ```yaml
    ---
    name: your-skill-name
    description: Brief explanation of what it does
    ---
-   [Your prompt body...]
    ```
-4. Commit your changes (`git commit -m "feat: add my-awesome-skill"`).
-5. Push to the branch (`git push origin skill/my-awesome-skill`).
-6. Open a Pull Request.
+5. Commit your changes (`git commit -m "feat: add my-awesome-skill"`).
+6. Push to the branch (`git push origin skill/my-awesome-skill`).
+7. Open a Pull Request.
 
 ---
 
