@@ -11,7 +11,6 @@ Developed and maintained with ❤️ by **[Sowmiyan](https://github.com/sowmiyan
 ## 🛠️ Table of Contents
 
 - [Awesome Claude Skills 🚀](#awesome-claude-skills-)
-  - [📁 Repository Structure](#-repository-structure)
   - [🌟 Categories & Skills](#-categories--skills)
     - [Web Development](#web-development)
     - [Content Creation](#content-creation)
@@ -25,18 +24,7 @@ Developed and maintained with ❤️ by **[Sowmiyan](https://github.com/sowmiyan
 
 ---
 
-## 📁 Repository Structure
 
-The repository is structured into distinct categories, each housing skills as clean, flat markdown files:
-
-```text
-├── web-development/              # Web-related styling, frameworks, and tools
-│   └── advanced-web-dev.md       # Modern anti-AI web development assistant
-├── software-engineering/         # Coding, DevOps, databases, and general programming
-├── content-creator/              # Blog writing, social media, copywriting
-│   └── blogger-baby.md           # Polished article and blog writing assistant
-└── business-productivity/        # Project management, resumes, data analysis
-```
 
 Each skill `.md` file starts with YAML frontmatter containing the skill's `name` and `description` (useful for auto-triggering/discovery in agentic environments).
 
