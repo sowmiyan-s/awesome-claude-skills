@@ -41,6 +41,7 @@ This skill transforms Claude into a senior frontend engineer with 30 years of ha
 
 ---
 
+- [linkedin-growth](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) - Import leads from LinkedIn or Sales Navigator searches, qualify them against an ideal-customer profile, schedule safe connection invites across accounts, track acceptances, and withdraw stale pending requests. *By [@Linked-API](https://github.com/Linked-API)*
 ## 🚀 How to Use These Skills
 
 You can apply these instructions to Claude in several ways:
