@@ -1,10 +1,11 @@
 # Business & Productivity Skills 📈
 
-This category is dedicated to project management, financial modeling, email outreach templates, copy-writing for business, resume building, and data analysis tasks.
+This category is dedicated to product management, SaaS unit economics, pricing strategies, startup fundraising, business requirements, and operational efficiency.
 
 ## Skills in This Category
 
-*No skills have been added to this category yet. Be the first to create one!*
+* [Product Manager & PRD Architect (product-manager-prd.md)](product-manager-prd.md) - Author comprehensive, actionable Product Requirement Documents (PRDs), user journeys, Gherkin acceptance criteria, and feature roadmaps.
+* [Startup Growth & Business Model Strategist (startup-growth-strategist.md)](startup-growth-strategist.md) - Formulate SaaS financial models (CAC, LTV, NRR), pricing tier psychology, bottom-up TAM/SAM/SOM market sizing, and viral growth loops.
 
 ## How to Add a Skill Here
 
