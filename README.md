@@ -31,6 +31,7 @@ A curated collection of custom instructions, prompts, and skills to supercharge 
 
 ---
 
+- [linkedin-skills](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf. *By [@Linked-API](https://github.com/Linked-API)*
 ## 🚀 How to Use These Skills
 
 1. Select a skill from the list above and click on its link.
